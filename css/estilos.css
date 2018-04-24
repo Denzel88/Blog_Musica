@@ -1,0 +1,45 @@
+.blog-body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.img-body{
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-inverse{
+  background: #600202;
+  height: 30%;
+  border: none;
+}
+
+.logo-img{
+  width: 70px;
+  border: solid #5D200A;
+}
+
+.img-social{
+  height: 40px;
+  width: 40px;
+}
+
+button{
+  padding: 10px;
+  color: white;
+}
+
+.titulo-text{
+  color: white;
+}
+
+.img-body{
+  float: left;
+}
+.jumbotron-text{
+  color: white;
+}

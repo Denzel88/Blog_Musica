@@ -1,3 +1,9 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .blog-body{
   background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
@@ -7,9 +13,23 @@
   height: 100%;
 }
 
-.img-body{
-  height: 100%;
+.nav-tabs{
+  padding: 10px;
+}
+
+.jumbotron{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   width: 100%;
+  height: 100%
+}
+
+.jumbotron-img{
+  height: 70%;
+  width: 50%;
+  float: right;
 }
 
 .navbar-inverse{
@@ -42,4 +62,21 @@ button{
 }
 .jumbotron-text{
   color: white;
+}
+
+.btn-comentario{
+  border-radius: 1px;
+  background-color: blue;
+  color: white;
+  float: left;
+}
+
+.titulo-contenido{
+  font-style: oblique;
+  color: red;
+  font-size: 50px;
+}
+
+.logo-contenido{
+  width: 70px;
 }

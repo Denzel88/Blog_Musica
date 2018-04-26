@@ -27,8 +27,8 @@
 }
 
 .jumbotron-img{
-  height: 70%;
-  width: 50%;
+  height: 350px;
+  width: 270px;
   float: right;
 }
 
@@ -48,10 +48,6 @@
   width: 40px;
 }
 
-button{
-  padding: 10px;
-  color: white;
-}
 
 .titulo-text{
   color: white;
@@ -64,12 +60,6 @@ button{
   color: white;
 }
 
-.btn-comentario{
-  border-radius: 1px;
-  background-color: blue;
-  color: white;
-  float: left;
-}
 
 .titulo-contenido{
   font-style: oblique;

@@ -13,26 +13,37 @@
     <header>
       <nav class="navbar navbar-inverse navbar-fixed-top affix-top">
         <img src="img/logo.jpg" alt="Logo" class="logo-img">
-        <div class="row">
-          <div class="redes-sociales float-rigt">
-            <img src="img/facebook.png" class="img-rounded img-social">
-            <img src="img/instagram.jpg" class="img-rounded img-social">
-            <img src="img/twitter.png" class="img-rounded img-social">
-          </div>
-        </div>
-      </nav>
-        <div class="row" role="navigation">
-          <div class="col-lg-12" role="menubar">
-           <ul class="nav nav-tabs">
-             <li><button><a href="#" class="active">Inicio</a></button></li>
-             <li><button><a href="#" class="active">Artistas</a></button></li>
-             <li><button><a href="#" class="active">Grupos</a></button></li>
-             <li><button><a href="#" class="active">Top 10</a></button></li>
-             <li><button><a href="#" class="active">Letras</a></button></li>
-             <li><button><a href="#" class="active">Acordes</a></button></li>
-           </ul>
+          <div class="row">
+            <div class="redes-sociales float-rigt">
+              <img src="img/facebook.png" class="img-rounded img-social">
+              <img src="img/instagram.jpg" class="img-rounded img-social">
+              <img src="img/twitter.png" class="img-rounded img-social">
             </div>
-        </div>
+          </div>
+      </nav>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+       <ul class="navbar-nav text-center">
+        <li class="nav-item active">
+         <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Artistas</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Grupos</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Top 10</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Letras</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Acrodes</a>
+        </li>
+       </ul>
+    </nav>
     </header>
 
 
@@ -40,7 +51,7 @@
       <div class="row">
         <div class="jumbotron">
           <div class="row">
-        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 ">
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 ">
           <header class="text-uppercase text-center titulo-text">
             <img src="img/burzum-logo.jpg" alt="logo-contenido" class="logo-contenido img-circle">
             <h5 class="titulo-contenido">Bruzum</h5>
@@ -55,12 +66,12 @@
               Burzum solo cuenta con un único integrante, Varg Vikernes (quien integró grupos como Uruk-Hai y Old Funeral); aunque ha contado con la colaboración de otros músicos como Euronymous y Samoth. Las primeras grabaciones de Burzum salieron a la venta en 1991.
 
               El 10 de agosto de 1993, Vikernes asesinó de forma premeditada a Øystein Aarseth (Euronymous) a puñaladas en su vivienda, por lo que fue condenado a una pena de 21 años de prisión, la pena máxima en toda la historia de Noruega, al descubrirse también su participación en la quema de tres iglesias.2​ Snorre Ruch fue condenado por complicidad en este crimen. Euronymous era dueño de la discográfica Deathlike Silence, que sacó a la venta los primeros discos de Burzum, y miembro fundador de la popular banda de black metal Mayhem, en la que Vikernes colaboró como bajista. Los motivos por los que le mató fueron desconocidos durante mucho tiempo, por lo que la prensa publicó todo tipo de interpretaciones y elucubraciones. Sin embargo, años más tarde se supo por medio de una carta dirigida a Vikernes escrita por un conocido de Aarseth, que Vikernes realmente lo asesinó en defensa propia, ya que en ella se afirmaba que Aarseth pretendía hacer lo propio con Vikernes. En la carta también se hace mención de cómo Aarseth habría asesinado a un joven polaco por envenenamiento con cianuro.3​4​ El 24 de mayo de 2009, Varg Vikernes salió bajo libertad provisional de prisión.
-                          </p>
+            </p>
 
           </div>
           <div class="comentario col-lg-12">
-            <textarea class="" name="textarea" rows="2" cols="50" placeholder="Comentario..."></textarea><br/>
-            <button type="button" name="button-comentatio" class="btn-comentario">Enviar</button>
+            <textarea class="" name="textarea" rows="2" cols="25" placeholder="Comentario..."></textarea><br/>
+            <button class="btn btn-success" type="submit">Buscar</button>
           </div><br/><br/><br/>
 
 
@@ -79,17 +90,18 @@
             </p>
           </div>
           <div class="comentario">
-            <textarea class="" name="textarea" rows="2" cols="50" placeholder="Comentario..."></textarea><br/>
-            <button type="button" name="button-comentatio"  class="btn-comentario">Enviar</button>
+            <textarea class="" name="textarea" rows="2" cols="25" placeholder="Comentario..."></textarea><br/>
+            <button class="btn btn-success" type="submit">Enviar</button>
           </div>
         </div>
 
 
-      <div class="row col-lg-2 col-md-2 hide-for-small">
-        <div class="row col-lg-12 col-med-12 hide-for-small">
-
-            <input type="text" name="Buscador" value="" class="">
-            <textarea name="name" rows="8" cols="80"></textarea>
+      <div class="row col-lg-3 col-md-3 d-none d-md-block">
+        <div class="row col-lg-12 col-med-12">
+          <form class="" action="index.html">
+           <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+           <button class="btn btn-success" type="submit">Buscar</button>
+          </form>
 
           </div>
           </div>

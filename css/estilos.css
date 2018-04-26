@@ -70,3 +70,12 @@
 .logo-contenido{
   width: 70px;
 }
+
+.list-group{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.list-group-item{
+  color: red;
+}
